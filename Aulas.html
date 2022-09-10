@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Academia ClaraFit - Tudo o que seu corpo precisa em um só lugar!</title>
+		<link rel="icon" href="img/favicon.png" type="image/x-icon">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+
+	</head>
+	<header>
+		<div class="col-xs-10 col-sm-12 col-md-12 col-lg-12">
+			<div class="row">
+				<nav class="navbar navbar-expand-lg navbar-dark" id="menu-index" >
+					<div class="container-fluid">
+						<img src="img/logo.png" href="index.html" alt ="">
+												
+						<ul class="nav justify-content-end">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="Cadastro.html">Se Cadastrar na Academia</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="Aulas.html">Ver horarios das Aulas</a>
+						</li>
+						</ul>
+					</div>
+				</nav>
+			</div>	
+		</div>	
+		<img src="img/aulas.jpg"  class="img-fluid w-100" id="img-header" alt ="">
+	</header>
+	<body>
+		<main>
+			<section class="container">
+				<h1 class="h1titulo">Encontre seus horarios de aulas abaixo</h1>
+				<p class="ptexto">Digite o nome do seu treino, ex: Musculação, Levantamento de Peso.....<br> Para saber o horario, o dia da semana e o instrutor que estara ministrando a aula</p>
+				<input type="text" name="filtro" id="filtrar-tabela2" placeholder="Digite o nome da sua Atividade">
+
+				<table>
+					<thead>
+						<tr>
+							<th>Atividade</th>
+							<th>Segunda-Feira</th>
+							<th>Terça-Feira</th>
+							<th>Quarta-Feira</th>
+							<th>Quinta-Feira</th>
+							<th>Sexta-Feira</th>
+							<th>Instrutor</th>
+						</tr>
+					</thead>
+					<tbody id="tabela-aulas">
+						<tr class="aula" id="primeira-atividade">
+							<td class="info-atividade2">Crossfit</td>
+							<td class="info-segunda">das 18h20 ás 20h30</td>
+							<td class="info-terca">das 18h20 ás 20h30</td>
+							<td class="info-quarta">das 18h20 ás 20h30</td>
+							<td class="info-quinta">das 18h20 ás 20h30</td>
+							<td class="info-sexta">das 18h20 ás 20h30</td>
+							<td class="info-instrutor">Marialice</td>
+						</tr>
+
+						<tr class="aula">
+							<td class="info-atividade2">Muay Thai</td>
+							<td class="info-segunda">das 8h30 ás 11h30</td>
+							<td class="info-terca">das 19h ás 20h</td>
+							<td class="info-quarta">das 8h30 ás 11h30</td>
+							<td class="info-quinta">das 19h ás 20h</td>
+							<td class="info-sexta">das 8h30 ás 11h30</td>
+							<td class="info-instrutor">Nicolas</td>
+						</tr>
+
+						<tr class="aula">
+							<td class="info-atividade2">Judô</td>
+							<td class="info-segunda">das 7h ás 8h30</td>
+							<td class="info-terca">das 8h30 ás 11h30</td>
+							<td class="info-quarta">das 7h ás 8h30</td>
+							<td class="info-quinta">das 8h30 ás 11h30</td>
+							<td class="info-sexta">das 7h ás 8h30</td>
+							<td class="info-instrutor">Juana</td>
+						</tr>
+
+						<tr class="aula">
+							<td class="info-atividade2">Levantamento de Peso</td>
+							<td class="info-segunda">das 20h ás 22h</td>
+							<td class="info-terca">Não tem Aula</td>
+							<td class="info-quarta">das 20h ás 22h</td>
+							<td class="info-quinta">Não tem Aula</td>
+							<td class="info-sexta">das 20h ás 22h</td>
+							<td class="info-instrutor">Marcelo</td>
+						</tr>
+					</tbody>
+				</table>
+
+			</section>
+		</main>
+
+
+		<script src="js/Encontrar-Aula.js"></script>
+
+	</body>
+</html>

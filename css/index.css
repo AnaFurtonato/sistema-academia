@@ -1,0 +1,186 @@
+body{
+	background: #000;
+}
+
+#menu-index{
+	background-color: #000;
+}
+.nav-link{
+	font-family: "inter", sans-serif;
+	font-size: 1.0em;
+	color: #fff;
+}
+.nav-link:hover{
+	color: #7E090F;
+}
+
+.h1titulo{
+	font-family: "inter", sans-serif;
+	font-size: 3em;
+	color: #7E090F;
+    text-align: center;
+	margin:50px 0px 30px 0px;
+}
+
+.ptexto{
+	font-family: "inter", sans-serif;
+	font-size: 1.0em;
+	color: #fff;
+    text-align: center;
+	margin:0px 0px 50px 0px;
+}
+
+.h2titulo{
+	font-family: "inter", sans-serif;
+	font-size: 1.5em;
+	color: #fff;
+    text-align: center;
+
+}
+
+#titulo-form{
+	font-family: "inter", sans-serif;
+	font-size: 2.0em;
+	color: #fff;
+    text-align: center;
+	margin:50px 0px 50px 0px;	
+}
+
+.imagemIndex{
+	border-radius: 15px 15px 15px 15px;
+	text-align: center;
+	margin:25px 0px 35px 0px;
+}
+
+label{
+	font-family: "inter", sans-serif;
+	font-size: 1.2em;
+	color: #fff;
+}
+
+table{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+
+}
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #fff;
+	text-align: center;
+	color: #fff;
+}
+
+.info-atividade2{
+	background-color: #7E090F;
+}
+
+th{
+	font-weight: bold;
+	background-color: #7E090F;
+}
+
+
+
+.campo{
+	margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #fff;
+	padding: .7em;
+	width: 100%;
+	border-radius: 25px;
+}
+
+.campo-medio{
+	display: inline-block;
+	padding-right: .5em;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+.grupo{
+	width: 49.8%;
+	display: inline-block;
+	padding: 10px 0px;
+	
+}
+
+button{
+	padding: .5em 2em;
+	border: 0;
+	border-bottom: 3px solid;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin: 0;
+	margin-top: -3px;
+	color: #fff;
+	background-color:#7E090F;
+	border-color: #470104;
+	width: 20%;
+    display: block;
+    clear: both;
+    margin: 10px 0px;
+	border-radius: 25px;
+}
+
+button:active{
+	margin-top:0px;
+	border: 0;
+}
+
+button[disabled=disabled], button:disabled {
+    background-color: gray;
+	border-color: darkgray;
+
+}
+
+.adicionar-paciente{
+    margin-top: 30px;
+}
+
+.campo-invalido{
+	border: 1px solid #7E090F;
+}
+
+.aluno-invalido{
+	background-color:lightcoral;
+}
+
+#mensagens-erro {
+	color: #7E090F;
+}
+
+.fadeOut {
+	opacity: 0;
+	transition: 0.5s;
+}
+
+#filtrar-tabela {
+	width: 20%;
+	height: 50px;
+	margin-bottom: 10px;
+	margin: 50px 0px 30px 0px;
+	border-radius: 25px;
+	padding: 10px 10px 10px 20px;
+}
+
+#filtrar-tabela2 {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 10px;
+	margin: 0px 0px 30px 0px;
+}
+
+.invisivel{
+	display: none;
+}
+   
+.alert{
+	background-color: #000;
+}
+   
+	  
+   
